@@ -2,6 +2,8 @@
 
 Este proyecto es un ejemplo básico diseñado para ayudar a los principiantes a practicar HTML y CSS. La intención es que puedan ver cómo se enlazan ambos lenguajes y cómo se aplican estilos a un documento HTML.
 
+![Vista previa del proyecto](assets/IntroduccionCss.png)
+
 ## Objetivos 🚀
 
 - Aprender a enlazar una hoja de estilos CSS a un archivo HTML. 📄
