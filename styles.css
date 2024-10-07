@@ -1,0 +1,94 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #6d2c95, #4737bb); 
+    margin: 0; 
+    padding: 0; 
+    color: white; 
+    overflow-x: hidden; 
+}
+
+.container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 20px; 
+}
+
+header {
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    letter-spacing: 1px;
+    line-height: 1.2; 
+}
+
+h2 {
+    color: #fff; 
+    margin-top: 30px;
+    font-size: 2rem;
+}
+
+section {
+    padding: 30px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+pre {
+    background-color: rgba(255, 255, 255, 0.2); 
+    padding: 15px;
+    border-radius: 5px;
+    overflow: auto;
+    font-family: 'Courier New', Courier, monospace; 
+    border: 1px solid #ccc;
+    color: white; 
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #4737bb; 
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-radius: 30px 30px 0 0;
+    margin-top: 20px; 
+}
+
+.highlight {
+    background-color: #ea4f33; 
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.intro-text {
+    line-height: 1.6; 
+}
+
+
+.logo {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 120px; 
+    max-width: 20%; 
+    height: auto; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    z-index: 1000; 
+}
+
